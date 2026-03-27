@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #1e3a8a, #06b6d4);
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.form-section {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.bar {
+    width: 80%;
+    height: 10px;
+    background: #ccc;
+    margin: 20px auto;
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: red;
+}

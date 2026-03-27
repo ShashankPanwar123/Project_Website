@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InsureAI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h2>🚗 InsureAI</h2>
+</header>
+
+<section class="hero">
+    <h1>Car Insurance Claim Prediction</h1>
+    <p>Powered by Machine Learning</p>
+</section>
+
+<section class="form-section">
+    <form id="form">
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="number" id="premium" placeholder="Premium" required>
+
+        <select id="vehicle_age">
+            <option value="0">< 1 Year</option>
+            <option value="1">1-2 Years</option>
+            <option value="2">> 2 Years</option>
+        </select>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h2 id="result"></h2>
+
+    <div class="bar">
+        <div id="progress"></div>
+    </div>
+</section>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
